@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 export default function Header() {
@@ -16,7 +17,7 @@ export default function Header() {
                             Gestoría <br /> Osellame
                         </h4>
                     </div>
-                    <nav className="flex text-white gap-x-6">
+                    <nav className="flex gap-x-6">
                         <a href="#inicio"> Inicio </a>
                         <a href="#servicios" > Servicios </a>
                         <a href="#servicios"> Sobre Mí </a>
