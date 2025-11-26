@@ -16,7 +16,14 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
+a, h1, h2, h3, button, p {
+  color: #fff;
   text-decoration: none;
+}
+
+.bg-img-header-hero {
+  background-image: url('/images/background-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
