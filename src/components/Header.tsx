@@ -4,17 +4,18 @@ import Image from "next/image";
 export default function Header() {
     return (
         <>
-            <header className="w-full p-4">
-                <div className="flex h-auto justify-between items-center">
+            <header className="relative w-full p-4 sticky top-0 z-50">
+                <div className="absolute inset-0 bg-black/70" aria-hidden="true" />
+                <div className="relative flex justify-between items-center">
                     <div className="flex gap-x-4 items-center">
                         <Image
-                            src="/images/logo-final-0.2.png"
-                            alt="Gestoría Olavarría"
+                            src="/images/logo.png"
+                            alt="Gestoría Digital"
                             width={80}
                             height={80}
                         />
                         <h4 className="text-white leading-tight">
-                            Gestoría <br /> Osellame
+                            Gestoría <br /> Digital
                         </h4>
                     </div>
                     <nav className="flex gap-x-6">
